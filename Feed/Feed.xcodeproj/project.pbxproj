@@ -93,8 +93,7 @@
 		941E2F832A02E6EB00867E54 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				941E2F882A02EBB800867E54 /* Domain */,
-				941E2F842A02E6F200867E54 /* Data */,
+				941E2F8C2A02ED3500867E54 /* Feature */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -129,6 +128,23 @@
 				941E2F8A2A02EBDA00867E54 /* FeedLoader.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		941E2F8C2A02ED3500867E54 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				941E2F8D2A02ED4C00867E54 /* Feed */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		941E2F8D2A02ED4C00867E54 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				941E2F882A02EBB800867E54 /* Domain */,
+				941E2F842A02E6F200867E54 /* Data */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
