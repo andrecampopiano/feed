@@ -12,6 +12,7 @@
 		941E2F792A02E6B200867E54 /* FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E2F782A02E6B200867E54 /* FeedTests.swift */; };
 		941E2F7A2A02E6B200867E54 /* Feed.h in Headers */ = {isa = PBXBuildFile; fileRef = 941E2F6C2A02E6B100867E54 /* Feed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		941E2F872A02E70800867E54 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E2F862A02E70800867E54 /* FeedItem.swift */; };
+		941E2F8B2A02EBDA00867E54 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941E2F8A2A02EBDA00867E54 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		941E2F732A02E6B200867E54 /* FeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		941E2F782A02E6B200867E54 /* FeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTests.swift; sourceTree = "<group>"; };
 		941E2F862A02E70800867E54 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		941E2F8A2A02EBDA00867E54 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		941E2F832A02E6EB00867E54 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				941E2F882A02EBB800867E54 /* Domain */,
 				941E2F842A02E6F200867E54 /* Data */,
 			);
 			path = Source;
@@ -110,6 +113,22 @@
 				941E2F862A02E70800867E54 /* FeedItem.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		941E2F882A02EBB800867E54 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				941E2F892A02EBC800867E54 /* Protocols */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		941E2F892A02EBC800867E54 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				941E2F8A2A02EBDA00867E54 /* FeedLoader.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941E2F8B2A02EBDA00867E54 /* FeedLoader.swift in Sources */,
 				941E2F872A02E70800867E54 /* FeedItem.swift in Sources */,
 				941E2F6E2A02E6B100867E54 /* Feed.docc in Sources */,
 			);
